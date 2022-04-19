@@ -17,3 +17,9 @@ console.log(students[0], "has replaced Bob");
 if (students[0] === "Alex") {
     console.log(students[0], "is in class");
 }
+
+const numbers = [1, 2, 3, 4]
+
+for (let i = 0 ; i < numbers.length; i++) {
+    console.log(i);
+}
