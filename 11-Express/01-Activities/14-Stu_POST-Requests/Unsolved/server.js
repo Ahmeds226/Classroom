@@ -1,19 +1,27 @@
-const express = require('express');
+const express = require("express");
 
 const PORT = 3001;
 
 const app = express();
 
 // TODO: Create a GET method for `/api/reviews` that logs when a user's request has been received
-app.get('/api/reviews', (req, res) => {
+app.get("/api/reviews", (req, res) => {
+  res.json(`${req.method} request recieved`);
+  console.info(req.rawHeaders);
+  console.info(`${req.method} request recieved`);
   // Your code here
 });
 
 // TODO: Create a POST request for `/api/reviews` that logs when a user's request has been received
+app.post("/api/reviews", (req, res) => {
+  res.json(`${req.method} request recieved`);
+  console.info(req.rawHeaders);
+  console.info(`${req.method} request recieved`);
+});
 // Your code here
 
 // TODO: Create a GET request for `api/upvotes` that logs when a user's request has been received
-app.get('/api/upvotes', (req, res) => {
+app.get("/api/upvotes", (req, res) => {
   // Your code here
 });
 
