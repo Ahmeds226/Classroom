@@ -1,20 +1,20 @@
-# 🐛 Main View Is Not Displaying Food Items 
+# 🐛 Main View Is Not Displaying Food Items
 
 Work with a partner to resolve the following issues:
 
-* As a party guest, I would like to view a full menu of food items that other guests will bring to the party.
+- As a party guest, I would like to view a full menu of food items that other guests will bring to the party.
 
 ## Expected Behavior
 
-* When a party guest views the page, they see a menu of food items.
+- When a party guest views the page, they see a menu of food items.
 
 ## Actual Behavior
 
-* When a party guest views the page, no food items appear on the menu.
+- When a party guest views the page, no food items appear on the menu.
 
 ## Steps to Reproduce the Problem
 
-1. Run `npm install`. 
+1. Run `npm install`.
 
 2. Confirm that the MySQL server is turned on.
 
@@ -42,9 +42,10 @@ How can you change your route so that the View will display the menu?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How else could you serialize data down to the properties that you need? 
+- How else could you serialize data down to the properties that you need?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
+
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
