@@ -1,10 +1,16 @@
 import React from "react";
-// First we import Greeting from the components folder
-import Greeting from "./components/Greeting";
+import Header from "./components/Header";
+import Section from "./components/Section";
+import Navbar from "./components/Navbar";
 
-// Our App component returns the Greeting component
 function App() {
-  return <Greeting />;
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <Section />
+    </div>
+  );
 }
 
 export default App;
